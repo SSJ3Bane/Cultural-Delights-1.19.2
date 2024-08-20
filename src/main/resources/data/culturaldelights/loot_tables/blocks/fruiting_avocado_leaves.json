@@ -6,13 +6,13 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
+          "type": "minecraft:any_of",
           "children": [
             {
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:alternative",
+                  "condition": "minecraft:any_of",
                   "terms": [
                     {
                       "condition": "minecraft:match_tool",
@@ -103,7 +103,7 @@
         {
           "condition": "minecraft:inverted",
           "term": {
-            "condition": "minecraft:alternative",
+            "condition": "minecraft:any_of",
             "terms": [
               {
                 "condition": "minecraft:match_tool",
@@ -160,7 +160,7 @@
         {
           "condition": "minecraft:inverted",
           "term": {
-            "condition": "minecraft:alternative",
+            "condition": "minecraft:any_of",
             "terms": [
               {
                 "condition": "minecraft:match_tool",
